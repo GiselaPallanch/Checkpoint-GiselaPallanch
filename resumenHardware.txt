@@ -1,0 +1,1 @@
+Memorias principales de la computadora: RAM, ROM y cache.

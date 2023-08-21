@@ -1,0 +1,35 @@
+$ history
+   58  git init
+   59  git remote add origin https://github.com/GiselaPallanch/Checkpoint-GiselaPallanch.git
+   60  git remote -v
+   61  touch main.js
+   62  touch index.html
+   63  git add .
+   64  git status
+   65  git commit -m "Commit 01 de GiselaPallanch"
+   66  git status
+   67  git push origin master
+   68  git branch feature
+   69  git checkout feature
+   70  mkdir Hardware
+   71  mkdir Software
+   72  mkdir SeguridadInformatica
+   73  cd Hardware
+   74  touch resumen.txt
+   75  cd SeguridadInformatica
+   76  cd..
+   77  cd ..
+   78  cd SeguridadInformatica
+   79  touch resumen.txt
+   80  cd ..
+   81  cd Software
+   82  touch resumen.txt
+   83  cd ..
+   84  git add .
+   85  git commit -m "Commit 01 de GiselaPallanch rama feature"
+   86  git push origin feature
+   87  git checkout master
+   88  mv main.js resumenHardware.txt
+   89  mv index.html resumenSoftware.txt
+   90  touch comandos.txt
+   91  history
